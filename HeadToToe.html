@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HEAD TO TOE - One stop to know about your body</title>
+        <style>
+
+            *
+            {
+                background-color:#0ea0ee;
+            }
+           
+            #ALIST
+            {
+                display:inline-table;
+            }
+            h1:hover{
+                color: #00a6ff; 
+                            
+            }
+        
+            h1{
+                margin: 0%;
+                border: 0in;
+                text-align: center;
+                text-shadow: #4c000d;
+                color: aquamarine;
+                background-color:#0a8fd6;
+            }
+            h4, a{
+                
+                color: aquamarine;                
+            }
+           
+            .OnListHover :hover
+            {
+                color: #ee556f;
+                
+            }          
+            
+
+            
+            #Target_Window
+            {
+                border-width: 5px;
+                border-color: aquamarine;
+                border-radius: 10px;
+                border-style: double;            
+            }
+            #IndexPage
+            {
+                border-radius: 10px;
+                border-width: 5px;
+                border-color: aquamarine;
+                border-style: double;
+            }
+            
+           
+        </style>
+    </head>
+    <body >   
+               
+        <img src="IMG/BlueWave.jpeg" alt="" width="100%" height="100px">
+        <h1>HEAD TO TOE</h1>         
+        <table  width="100%">
+           <!-- <tr >
+                <td width="30%" >
+                    <h2>INDEX</h2>
+                </td>
+                <td width="70%">
+                    <h2>CONTENT</h2> </td>
+            </tr>
+            -->
+            <tr> 
+                
+                <td width="30%" id="IndexPage" valign="top">
+                    <ul>
+                        <li class="OnListHover">
+                            <h4>A</h4>
+                            
+                                <ul type="square">
+                                    <li><a href="Abdomen.html" target="targetwindow">ABDOMEN</a></li>
+                                    <li><a href="Ankle.html" target="targetwindow">Ankle</a></li>
+                                    <li><a href="Arm.html" target="targetwindow">Arm</a></li>
+                                </ul>
+                                                      
+                        </li>
+                        <li class="OnListHover">
+                            <h4>B</h4>
+                            <div id="BLIST">
+                                <ul type="square">
+                                    <li><a href="Brain.html" target="targetwindow">BRAIN</a></li>
+                                    <li><a href="Bone.html" target="targetwindow">BONE</a></li>
+                                    <li><a href="BloodVessel.html"target="targetwindow">BLOOD VESSELS</a></li>
+                                </ul>
+                            </div>  
+                        </li> 
+                    </ul>                         
+                </td>                 
+            
+                <td width="70%" align="center" id="Target_Window">
+                    <iframe src="IMG/HumanBody.jpg" name="targetwindow"frameborder="" width="800px" height="600px"></iframe>
+                </td>
+                
+            </tr>
+        </table>
+    
+    </body>
+</html>
